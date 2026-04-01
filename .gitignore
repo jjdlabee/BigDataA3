@@ -205,3 +205,64 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific data and config
+data/raw/*.parquet
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+data/processed/*.json
+
+# Jupyter notebook checkpoints
+notebooks/
+
+# Streamlit cache
+.streamlit/
+
+# Configuration
+config.toml
+
+# Dashboard pages (optional feature)
+dashboard/pages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+*.png
+*.jpg
+*.jpeg
+
+# Data files
+data/
+*.parquet
+*.csv
+
+# ChromaDB vector store
+chroma_db/
+
+# Model artifacts and cache
+.cache/
+sentence_transformers/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
